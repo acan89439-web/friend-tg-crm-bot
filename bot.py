@@ -20,7 +20,7 @@ from telegram.ext import (
 
 import os
 
-TOKEN = os.getenv("8894777831:AAETw0lrMiAL_cAbbnxw-Sa5aO92u1D5K6Y")
+TOKEN = os.getenv("TOKEN")
 
 # ================= DB =================
 conn = sqlite3.connect("bot.db", check_same_thread=False)
