@@ -48,7 +48,7 @@ main_kb = ReplyKeyboardMarkup([
 
 # ================= START =================
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("🤖 刘烨的专属记账系统已启动", reply_markup=main_kb)
+    await update.message.reply_text("🤖 思南的专属记账系统已启动", reply_markup=main_kb)
 
 
 # ================= 模板 =================
